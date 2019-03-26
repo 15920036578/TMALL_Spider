@@ -19,15 +19,16 @@ pip install selenium
 pip install pyquery
 ```
 ## 介绍
-- **防止被检测出为机器人**
+- **防止被检测出为机器**
 ##### 一般我们在chrome浏览器的Console里输入window.navigator.webdriver后会返回undefined的值
 ![enter image description here](picture/undefined.jpg)
 ##### 如果你在chromedriver驱动的Console里输入window.navigator.webdriver后会返回true的值
 ![enter image description here](picture/true.jpg)
+##### 解决办法
 ```
-解决办法：
 options = webdriver.ChromeOptions()
-options.add_experimental_option('excludeSwitches', ['enable-automation'])
+options.add_experimental_option('excludeSwitches', ['enable-automation'])  # 设置为开发者模式
+在options里加上这个参数使得chromedriver驱动不会被检测出为机器
 ```
 ## 类目
 #### :telephone_receiver:[手机](https://search.suning.com/%E6%89%8B%E6%9C%BA/)
