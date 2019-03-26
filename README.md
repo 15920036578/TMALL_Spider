@@ -30,14 +30,19 @@ options = webdriver.ChromeOptions()
 options.add_experimental_option('excludeSwitches', ['enable-automation'])  # 设置为开发者模式
 # 在options里加上这个参数使得chromedriver驱动不会被检测出为机器
 ```
-## 类目
-#### :telephone_receiver:[手机](https://search.suning.com/%E6%89%8B%E6%9C%BA/)
-#### 爬取字段：
-- **商品id (id)**
-- **商品标题 (title)**
-- **商品价格 (price)**
-- **商品牌子 (brand)**
-- **商品型号 (model)**
-- **商品的网店名称 (shop_name)**
-- **商品评论数量 (comment_count)**
-- **商品详情页网址 (url)**
+- **模仿人类进行向下滑动浏览**
+##### 匀加速下滑
+```
+for i in range(1, 52):
+  drop_down = "var q=document.documentElement.scrollTop=" + str(i*100)
+  self.browser.execute_script(drop_down)
+  time.sleep(0.01)
+  if i == 5:
+    time.sleep(0.7)
+  if i == 15:
+    time.sleep(0.5)
+  if i == 29:
+    time.sleep(0.3)
+  if i == 44:
+    time.sleep(0.1)
+```
