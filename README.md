@@ -10,11 +10,6 @@
 ## 前言
 #### 开始之前，你需要
 - **下载chrome浏览器 :point_right:[地址在这](https://chrome.en.softonic.com/)**
-## 介绍
-- **防止被检测出为机器人**
-- **对应的爬虫在spiders/suning_xxxx.py里**
-> **目前只有爬取[手机](https://search.suning.com/%E6%89%8B%E6%9C%BA/)这个类目<br>**
-> **对应的spider里有详细过程注释，请放心食用 :point_left:**
 ## 运行环境
 #### Version: Python3
 ## 安装依赖库
@@ -22,6 +17,11 @@
 pip install selenium
 pip install pyquery
 ```
+## 介绍
+- **防止被检测出为机器人**
+- **对应的爬虫在spiders/suning_xxxx.py里**
+> **目前只有爬取[手机](https://search.suning.com/%E6%89%8B%E6%9C%BA/)这个类目<br>**
+> **对应的spider里有详细过程注释，请放心食用 :point_left:**
 ## 类目
 #### :telephone_receiver:[手机](https://search.suning.com/%E6%89%8B%E6%9C%BA/)
 #### 爬取字段：
