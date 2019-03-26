@@ -13,6 +13,9 @@
 - **注册一个[微博账号](https://weibo.com/signup/signup.php)**
 - **下载[chrome浏览器](https://chrome.en.softonic.com/)**
 - **下载对应chrome浏览器版本的[chromedriver驱动](http://chromedriver.storage.googleapis.com/index.html)**
+#### 简单说明
+- **全程使用selenium进行爬取**
+- **请求时需要携带cookies（即需要先登录），否则极易出现验证码**
 ## 运行环境
 #### Version: Python3
 ## 安装依赖库
