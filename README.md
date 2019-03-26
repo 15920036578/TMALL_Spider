@@ -20,7 +20,7 @@ pip install pyquery
 ```
 ## 介绍
 - **防止被检测出为机器人**
-#### 一般我们在chrome浏览器的Console里输入window.navigator.webdriver后会返回undefined的值
+###### 一般我们在chrome浏览器的Console里输入window.navigator.webdriver后会返回undefined的值
 ![enter image description here](picture/undefined.jpg)
 ## 类目
 #### :telephone_receiver:[手机](https://search.suning.com/%E6%89%8B%E6%9C%BA/)
