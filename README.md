@@ -28,7 +28,7 @@ pip install pyquery
 ```
 options = webdriver.ChromeOptions()
 options.add_experimental_option('excludeSwitches', ['enable-automation'])  # 设置为开发者模式
-在options里加上这个参数使得chromedriver驱动不会被检测出为机器
+# 在options里加上这个参数使得chromedriver驱动不会被检测出为机器
 ```
 ## 类目
 #### :telephone_receiver:[手机](https://search.suning.com/%E6%89%8B%E6%9C%BA/)
