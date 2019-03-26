@@ -115,10 +115,10 @@ class TaobaoLogin(object):
             time.sleep(2)
 
 
-username = '123456789'  # 您的 微博账号
-password = '*********'  # 您的 微博密码
-chromedriver_path = 'x:/xxxxxxxx/xxxxxxxxx.exe'  # 您的 selenium驱动 存放地址
-category = '某某某'  # 您要爬取的 类目
+username = '123456789'  # 你的 微博账号
+password = '*********'  # 你的 微博密码
+chromedriver_path = 'x:/xxxxxxxx/xxxxxxxxx.exe'  # 你的 selenium驱动 存放地址
+category = '某某某'  # 你要爬取的 类目
 
 if __name__ == '__main__':
     a = TaobaoLogin(username, password, chromedriver_path)
