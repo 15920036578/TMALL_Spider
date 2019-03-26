@@ -108,17 +108,17 @@ class TaobaoLogin(object):
                 goods_url = ''.join(['https:', item.find('.productImg').attr('href')])  # 获取 详情页网址 并在地址最前面加上 https:
                 goods_id = re.match('.*?id=?(\d+)&.*', goods_url).group(1)  # 获取 商品id
                 print(''.join(['商品id：', goods_id, '\u0020\u0020\u0020\u0020\u0020', '商品标题：', goods_title, '\u0020\u0020\u0020\u0020\u0020', '商品价格：', str(goods_price), '\u0020\u0020\u0020\u0020\u0020', '商品月销量：', str(goods_sales_volume), '\u0020\u0020\u0020\u0020\u0020', '店名：', goods_shop, '\u0020\u0020\u0020\u0020\u0020', '详情页网址：', goods_url]))
-            self.dropDown()  # 执行下拉动作
-            self.nextPage()
+            self.dropDown()  # 执行 下拉动作
+            self.nextPage()  # 执行 按下一页按钮动作
             time.sleep(2)
-            self.sliderVerification()
-            time.sleep(3)
+            self.sliderVerification()  # 检测是否有 滑块验证
+            time.sleep(2)
 
 
 username = '123456789'  # 您的 微博账号
 password = '*********'  # 您的 微博密码
 chromedriver_path = 'x:/xxxxxxxx/xxxxxxxxx.exe'  # 您的 selenium驱动 存放地址
-category = 'xx'  # 您要爬取的 类目
+category = '某某某'  # 您要爬取的 类目
 
 if __name__ == '__main__':
     a = TaobaoLogin(username, password, chromedriver_path)
