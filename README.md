@@ -23,7 +23,7 @@
 pip install selenium
 pip install pyquery
 ```
-## 介绍
+## 细节
 - **防止被检测出为机器**
 ###### 一般我们在chrome浏览器的Console里输入window.navigator.webdriver后会返回undefined的值
 ![enter image description here](picture/undefined.jpg)
