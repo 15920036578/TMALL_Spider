@@ -36,7 +36,7 @@ options.add_experimental_option('excludeSwitches', ['enable-automation'])  # 设
 for i in range(1, 52):
   drop_down = "var q=document.documentElement.scrollTop=" + str(i*100)
   self.browser.execute_script(drop_down)
-  time.sleep(0.01)
+  time.sleep(0.01)  # 值越小越顺滑，越像人类行为
   # 模仿人类，发现喜欢的商品时会停止滑动
   if i == 5:
     time.sleep(1.3)
@@ -56,5 +56,5 @@ action.reset_actions()
 # 模拟人类 向左拖动滑块（拖动有加速度）
 for i in range(100):
   action.move_by_offset(i*1, 0).perform()
-  time.sleep(0.01)
+  time.sleep(0.01)  # 值越小越顺滑，越像人类行为
 ```
