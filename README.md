@@ -1,6 +1,6 @@
-# 淘宝爬虫
+# 天猫爬虫
 ![](https://img.shields.io/badge/Python-3.5.3-green.svg) ![](https://img.shields.io/badge/selenium-3.141.0-green.svg) ![](https://img.shields.io/badge/pyquery-1.4.0-green.svg)
-#### 淘宝官网 - https://www.taobao.com/
+#### 天猫官网 - https://www.tmall.com/
 |Author|Gobi Xu|
 |---|---|
 |Email|792799564@qq.com|
