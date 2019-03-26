@@ -60,4 +60,5 @@ for i in range(100):
   time.sleep(0.01)  # 值越小越顺滑，越像人类行为
 ```
 ## 最后
+#### taobao_spider.py里有大量注释，请放心食用:meat_on_bone:
 #### 如有任何问题都可以邮箱:email:联系我，我会尽快回复你
