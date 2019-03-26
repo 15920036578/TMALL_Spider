@@ -30,8 +30,8 @@ options = webdriver.ChromeOptions()
 options.add_experimental_option('excludeSwitches', ['enable-automation'])  # 设置为开发者模式
 # 在options里加上这个参数使得chromedriver驱动不会被检测出为机器
 ```
-- **模仿人类进行向下滑动浏览**
-##### 匀加速下滑
+- **模仿人类行为**
+###### 匀加速下滑
 ```
 for i in range(1, 52):
   drop_down = "var q=document.documentElement.scrollTop=" + str(i*100)
