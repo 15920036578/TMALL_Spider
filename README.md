@@ -5,10 +5,11 @@
 |---|---|
 |Email|792799564@qq.com|
 ****
-## 前言
-#### 全程使用selenium进行自动化爬取
 ## 声明
 #### 任何内容都仅用于学习交流，请勿用于任何商业用途。
+## 前言
+#### 开始之前，你需要
+- **下载chrome浏览器 :point_right:[地址在这](https://chrome.en.softonic.com/)**
 ## 介绍
 - **防止被检测出为机器人**
 - **对应的爬虫在spiders/suning_xxxx.py里**
