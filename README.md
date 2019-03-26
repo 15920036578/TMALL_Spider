@@ -10,6 +10,7 @@
 ## 前言
 #### 开始之前，你需要
 - **下载chrome浏览器 :point_right:[地址在这](https://chrome.en.softonic.com/)**
+- **下载chromedriver驱动 :point_right:[地址在这](http://chromedriver.storage.googleapis.com/index.html)**
 ## 运行环境
 #### Version: Python3
 ## 安装依赖库
