@@ -20,11 +20,11 @@ pip install pyquery
 ```
 ## 介绍
 - **防止被检测出为机器**
-##### 一般我们在chrome浏览器的Console里输入window.navigator.webdriver后会返回undefined的值
+###### 一般我们在chrome浏览器的Console里输入window.navigator.webdriver后会返回undefined的值
 ![enter image description here](picture/undefined.jpg)
-##### 如果你在chromedriver驱动的Console里输入window.navigator.webdriver后会返回true的值
+###### 如果你在chromedriver驱动的Console里输入window.navigator.webdriver后会返回true的值
 ![enter image description here](picture/true.jpg)
-##### 解决办法
+###### 解决办法
 ```
 options = webdriver.ChromeOptions()
 options.add_experimental_option('excludeSwitches', ['enable-automation'])  # 设置为开发者模式
