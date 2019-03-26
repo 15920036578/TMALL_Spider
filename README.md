@@ -20,9 +20,9 @@ pip install pyquery
 ```
 ## 介绍
 - **防止被检测出为机器人**
-- **对应的爬虫在spiders/suning_xxxx.py里**
-> **目前只有爬取[手机](https://search.suning.com/%E6%89%8B%E6%9C%BA/)这个类目<br>**
-> **对应的spider里有详细过程注释，请放心食用 :point_left:**
+```
+一般我们在chrome浏览器的Console里输入window.navigator.webdriver后会返回undefined的值
+```
 ## 类目
 #### :telephone_receiver:[手机](https://search.suning.com/%E6%89%8B%E6%9C%BA/)
 #### 爬取字段：
