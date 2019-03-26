@@ -9,6 +9,7 @@
 #### 任何内容都仅用于学习交流，请勿用于任何商业用途。
 ## 前言
 #### 开始之前，你需要
+- **注册一个淘宝账号 :point_right:[地址在这](https://reg.taobao.com/member/reg/fill_mobile.htm)**
 - **下载chrome浏览器 :point_right:[地址在这](https://chrome.en.softonic.com/)**
 - **下载chromedriver驱动 :point_right:[地址在这](http://chromedriver.storage.googleapis.com/index.html)**
 ## 运行环境
@@ -59,4 +60,4 @@ for i in range(100):
   time.sleep(0.01)  # 值越小越顺滑，越像人类行为
 ```
 ## 最后
-#### 如有任何问题都可以邮箱:postbox:联系我，我会尽快回复你
+#### 如有任何问题都可以邮箱:email:联系我，我会尽快回复你
