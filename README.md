@@ -9,9 +9,10 @@
 #### 任何内容都仅用于学习交流，请勿用于任何商业用途。
 ## 前言
 #### 开始之前，你需要
-- **注册一个淘宝账号 :point_right:[地址在这](https://reg.taobao.com/member/reg/fill_mobile.htm)**
-- **下载chrome浏览器 :point_right:[地址在这](https://chrome.en.softonic.com/)**
-- **下载chromedriver驱动 :point_right:[地址在这](http://chromedriver.storage.googleapis.com/index.html)**
+- **注册一个[淘宝账号](https://reg.taobao.com/member/reg/fill_mobile.htm)**
+- **注册一个[微博账号](https://weibo.com/signup/signup.php)**
+- **下载[chrome浏览器](https://chrome.en.softonic.com/)**
+- **下载对应chrome浏览器版本的[chromedriver驱动](http://chromedriver.storage.googleapis.com/index.html)**
 ## 运行环境
 #### Version: Python3
 ## 安装依赖库
